@@ -1,0 +1,26 @@
+version: '2.4'
+
+services:
+  backend:
+    build:
+      context: ./server
+      target: dev
+    ports:
+      - ${SERVER_PORT}:${SERVER_PORT}
+    environment:
+      SERVER_PORT: ${SERVER_PORT}
+    volumes:
+      - ./server:/backend
+      - /backend/node_modules
+
+  front:
+    build:
+      context: ./client
+      target: dev
+    volumes:
+      - ./client:/frontend
+      - /frontend/node_modules
+    ports:
+      - ${CLIENT_PORT}:${CLIENT_PORT}
+    environment:
+      NEXT_PUBLIC_GRAPHQL_URI: http://backend:${SERVER_PORT}/graphql
