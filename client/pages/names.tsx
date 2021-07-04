@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { NameList } from '../components/NameList';
+import NameList from '../components/NameList';
 
 const Names = () => (
   <div>
@@ -10,6 +10,8 @@ const Names = () => (
     <Link href="/">
       <a>Go Back</a>
     </Link>
+    <br />
+    <br />
     <NameList />
   </div>
 );

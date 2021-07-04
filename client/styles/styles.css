@@ -1,0 +1,45 @@
+.names {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.name_item {
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: lightgrey;
+  width: 20rem;
+}
+
+.names_header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem;
+}
+
+.names_header > input {
+  width: 200px;
+  padding: 0.5rem 1rem;
+}
+
+.names_header > button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 0.1rem solid #fff;
+  border-radius: 0.2rem;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.names_header > button:hover {
+  background-color: #fff;
+  border: 0.1rem solid #000;
+  cursor: pointer;
+}

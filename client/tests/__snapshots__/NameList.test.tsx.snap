@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NameList should filter data 1`] = `
+<div>
+  <div
+    class="names_header"
+  >
+    <input
+      data-testid="search-input"
+      placeholder="Search"
+      type="text"
+      value="aar"
+    />
+    <button
+      data-testid="fetch-more"
+    >
+      Load more
+    </button>
+  </div>
+  <p>
+    Displaying 5 items
+  </p>
+  <ul
+    class="names"
+    data-testid="name-list"
+  >
+    <li
+      class="name_item"
+      data-testid="name-item"
+    >
+      <h3>
+        Aaron Conroy
+      </h3>
+      <p>
+        767 Kreiger Fields
+      </p>
+      <p>
+        Melyna12@hotmail.com
+      </p>
+      <p>
+        752.447.1493 x77056
+      </p>
+    </li>
+    <li
+      class="name_item"
+      data-testid="name-item"
+    >
+      <h3>
+        Aaron Ratke
+      </h3>
+      <p>
+        5245 Keira Point
+      </p>
+      <p>
+        Christophe.Champlin57@yahoo.com
+      </p>
+      <p>
+        1-377-553-6621
+      </p>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`NameList should render with data 1`] = `
+<div>
+  <div
+    class="names_header"
+  >
+    <input
+      data-testid="search-input"
+      placeholder="Search"
+      type="text"
+      value=""
+    />
+    <button
+      data-testid="fetch-more"
+    >
+      Load more
+    </button>
+  </div>
+  <p>
+    Displaying 5 items
+  </p>
+  <ul
+    class="names"
+    data-testid="name-list"
+  >
+    <li
+      class="name_item"
+      data-testid="name-item"
+    >
+      <h3>
+        Aaron Conroy
+      </h3>
+      <p>
+        767 Kreiger Fields
+      </p>
+      <p>
+        Melyna12@hotmail.com
+      </p>
+      <p>
+        752.447.1493 x77056
+      </p>
+    </li>
+    <li
+      class="name_item"
+      data-testid="name-item"
+    >
+      <h3>
+        Aaron Ratke
+      </h3>
+      <p>
+        5245 Keira Point
+      </p>
+      <p>
+        Christophe.Champlin57@yahoo.com
+      </p>
+      <p>
+        1-377-553-6621
+      </p>
+    </li>
+    <li
+      class="name_item"
+      data-testid="name-item"
+    >
+      <h3>
+        Abel Bogisich
+      </h3>
+      <p>
+        3796 Lang Gardens
+      </p>
+      <p>
+        Anissa.Armstrong@gmail.com
+      </p>
+      <p>
+        (207) 718-2958 x23180
+      </p>
+    </li>
+    <li
+      class="name_item"
+      data-testid="name-item"
+    >
+      <h3>
+        Adam Cole
+      </h3>
+      <p>
+        50417 Keira Corners
+      </p>
+      <p>
+        Ora_Friesen55@hotmail.com
+      </p>
+      <p>
+        (213) 618-2549
+      </p>
+    </li>
+    <li
+      class="name_item"
+      data-testid="name-item"
+    >
+      <h3>
+        Adam Ondricka
+      </h3>
+      <p>
+        685 Camryn Prairie
+      </p>
+      <p>
+        Celestino_Dicki64@yahoo.com
+      </p>
+      <p>
+        1-885-514-9081
+      </p>
+    </li>
+  </ul>
+</div>
+`;

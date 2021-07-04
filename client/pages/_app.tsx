@@ -2,6 +2,8 @@ import React from 'react';
 import { ApolloProvider } from '@apollo/client';
 import client from '../lib/appolo-client';
 
+import '../styles/styles.css';
+
 type MyAppProps = {
   Component: typeof React.Component;
   pageProps: any;
