@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "node server",
+    "start": "node dist/server.js",
     "dev": "nodemon server.ts",
-    "build": "ts"
+    "build": "tsc"
   },
   "dependencies": {
     "apollo-server": "^2.25.2",
